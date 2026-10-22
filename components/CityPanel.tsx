@@ -75,9 +75,10 @@ export function CityPanel({ city, headingId }: { city: CityView; headingId?: str
             </a>
           </>
         ) : (
-          <Link href={`/?citta=${city.slug}#newsletter`} className="btn-primary">
+          // <a> e non <Link>: dalla home serve un caricamento vero perché la newsletter legga ?citta=.
+          <a href={`/?citta=${city.slug}#newsletter`} className="btn-primary">
             Voglio partecipare <ArrowRight />
-          </Link>
+          </a>
         )}
       </div>
 

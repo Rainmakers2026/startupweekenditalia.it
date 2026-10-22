@@ -70,9 +70,9 @@ export default async function CityPage({ params }: Props) {
             </>
           ) : (
             <>
-              <Link href={`/?citta=${c.slug}#newsletter`} className="btn-primary">
+              <a href={`/?citta=${c.slug}#newsletter`} className="btn-primary">
                 Avvisami quando esce la data <ArrowRight />
-              </Link>
+              </a>
               <Link href={`/organizza?citta=${c.slug}`} className="btn-secondary">
                 Dai una mano a organizzarla
               </Link>

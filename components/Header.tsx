@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Menu } from "./Icons";
 import { Logo } from "./Logo";
+import { MobileMenu } from "./MobileMenu";
 
 export const NAV = [
   { href: "/#citta", label: "Città" },
@@ -32,8 +33,7 @@ export function Header() {
         <Link href="/#mappa" className="btn-primary hidden !px-5 !py-2 text-sm lg:inline-flex">
           Trova il tuo SW <ArrowRight />
         </Link>
-        {/* Menu mobile senza JavaScript: <details> è accessibile da tastiera e da screen reader. */}
-        <details className="group relative lg:hidden">
+        <MobileMenu>
           <summary className="grid size-11 cursor-pointer list-none place-items-center rounded-full hover:bg-superficie-alt [&::-webkit-details-marker]:hidden">
             <Menu />
             <span className="sr-only">Apri il menu</span>
@@ -54,7 +54,7 @@ export function Header() {
               </li>
             </ul>
           </nav>
-        </details>
+        </MobileMenu>
       </div>
     </header>
   );
