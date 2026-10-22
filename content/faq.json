@@ -1,0 +1,62 @@
+[
+  {
+    "audience": "partecipanti",
+    "q": "Cos'è uno Startup Weekend?",
+    "a": ["È un evento di 54 ore, da venerdì sera a domenica sera. Il venerdì chi vuole presenta un'idea in 60 secondi, si votano le migliori e si formano i team. Il sabato si lavora con i mentor per validare l'idea e costruire un prototipo. La domenica si presenta il progetto a una giuria. Il format è di Techstars ed è attivo in tutto il mondo."]
+  },
+  {
+    "audience": "partecipanti",
+    "q": "Devo avere un'idea per partecipare?",
+    "a": ["No. Puoi presentare un'idea, ma puoi anche unirti al team di qualcun altro. La maggior parte dei partecipanti fa così."]
+  },
+  {
+    "audience": "partecipanti",
+    "q": "Non so programmare. Posso partecipare lo stesso?",
+    "a": ["Sì. Un team ha bisogno di persone che sappiano parlare con i clienti, fare design, marketing, numeri e presentazioni, non solo di sviluppatori."]
+  },
+  {
+    "audience": "partecipanti",
+    "q": "Quanto costa?",
+    "a": ["Dipende dalla città: ogni Startup Weekend fissa il proprio prezzo e spesso ha biglietti ridotti per studenti. Trovi tutto sulla pagina della città. A Rimini (Youth) la partecipazione è gratuita per scuole e studenti."]
+  },
+  {
+    "audience": "partecipanti",
+    "q": "I minorenni possono partecipare?",
+    "a": ["Di norma no: da alcuni anni Techstars non ammette minori per motivi di privacy e compliance. L'eccezione è lo Startup Weekend Youth di Rimini, riservato agli studenti delle superiori, a cui si partecipa solo tramite la propria scuola."]
+  },
+  {
+    "audience": "partecipanti",
+    "q": "Come resto aggiornato sulle prossime date?",
+    "a": ["Aggiungi il calendario condiviso al tuo Google Calendar, Apple Calendar o Outlook, oppure iscriviti alla newsletter scegliendo le città che ti interessano."]
+  },
+  {
+    "audience": "organizzatori",
+    "q": "Con 80 partecipanti, quante persone servono nel team operativo?",
+    "a": [
+      "Dipende da quanto è esperto il team e da quanto vuoi coinvolgere volontari per farli appassionare alla causa e alla community.",
+      "Se guardi solo all'operatività (accrediti, catering, allestimento sale…) bastano 3 persone in gamba più il facilitatore. C'è chi l'ha fatto anche in 2 + 1.",
+      "Tieni conto che le attività che portano via più tempo durante l'evento sono quelle di comunicazione: chi si occupa di foto, video e interviste va contato a parte.",
+      "Se invece vuoi far crescere la community locale, coinvolgere più volontari è un investimento: è così che nascono i futuri organizzatori."
+    ]
+  },
+  {
+    "audience": "organizzatori",
+    "q": "Come si diventa organizzatori ufficiali Techstars?",
+    "a": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+  },
+  {
+    "audience": "organizzatori",
+    "q": "Quanto tempo prima bisogna iniziare a organizzare?",
+    "a": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+  },
+  {
+    "audience": "organizzatori",
+    "q": "Come si trovano sponsor e partner locali?",
+    "a": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+  },
+  {
+    "audience": "organizzatori",
+    "q": "Chi è il facilitatore e come si trova?",
+    "a": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+  }
+]

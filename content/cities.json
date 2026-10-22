@@ -1,0 +1,118 @@
+[
+  {
+    "slug": "bari", "name": "Bari", "region": "Puglia",
+    "coords": { "lat": 41.1171, "lng": 16.8719 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Annalisa Ghebbioni", "Diego Antonacci", "Davide Montrone", "Sabrina Turturro"]
+  },
+  {
+    "slug": "lecco", "name": "Lecco", "region": "Lombardia",
+    "coords": { "lat": 45.8566, "lng": 9.3977 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Marcello Berera", "Giovanni Vanini"]
+  },
+  {
+    "slug": "mantova", "name": "Mantova", "region": "Lombardia",
+    "coords": { "lat": 45.1564, "lng": 10.7914 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Nox"]
+  },
+  {
+    "slug": "milano", "name": "Milano", "region": "Lombardia",
+    "coords": { "lat": 45.4642, "lng": 9.19 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Nox"]
+  },
+  {
+    "slug": "padova", "name": "Padova", "region": "Veneto",
+    "coords": { "lat": 45.4064, "lng": 11.8768 },
+    "status": "attiva",
+    "website": "https://www.startupweekendpadova.it",
+    "ticketUrl": "https://www.startupweekendpadova.it",
+    "social": {},
+    "nextEdition": {
+      "startDate": "2026-11-06", "endDate": "2026-11-08",
+      "venue": "Campus di Biologia e Biomedicina \"Fiore di Botta\", Università di Padova",
+      "edition": null, "note": "Data da confermare"
+    },
+    "special": null,
+    "referentiStatic": ["Eda Fetahu", "Chiara Morandin"]
+  },
+  {
+    "slug": "parma", "name": "Parma", "region": "Emilia-Romagna",
+    "coords": { "lat": 44.8015, "lng": 10.3279 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Veronica Pinetti", "Rossella"]
+  },
+  {
+    "slug": "pavia", "name": "Pavia", "region": "Lombardia",
+    "coords": { "lat": 45.1847, "lng": 9.1582 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Claudia Lupu"]
+  },
+  {
+    "slug": "pescara", "name": "Pescara", "region": "Abruzzo",
+    "coords": { "lat": 42.4618, "lng": 14.2161 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Federico Bonetti"]
+  },
+  {
+    "slug": "reggio-emilia", "name": "Reggio Emilia", "region": "Emilia-Romagna",
+    "coords": { "lat": 44.6983, "lng": 10.6312 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Elena Galli", "Giacomo Cacciamani"]
+  },
+  {
+    "slug": "rimini", "name": "Rimini", "region": "Emilia-Romagna",
+    "coords": { "lat": 44.0678, "lng": 12.5695 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": 7, "note": "Fine aprile / maggio 2027" },
+    "special": {
+      "label": "Youth · scuole superiori",
+      "canRegisterOnline": false,
+      "description": "A Rimini lo Startup Weekend è dedicato esclusivamente agli studenti delle scuole superiori. Selezioniamo le scuole del territorio e poi, con il nostro supporto, sono le scuole a selezionare gli studenti. Non è possibile iscriversi dal sito. La partecipazione è gratuita per scuole e studenti, grazie ai partner locali che sostengono l'iniziativa.",
+      "compliance": "Da alcuni anni Techstars non ammette la partecipazione di minori per motivi di privacy e compliance. Per Rimini è stata concessa un'eccezione, di cui gli organizzatori locali si assumono la responsabilità."
+    },
+    "referentiStatic": ["Diego De Simone"]
+  },
+  {
+    "slug": "roma", "name": "Roma", "region": "Lazio",
+    "coords": { "lat": 41.9028, "lng": 12.4964 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Erika Lucciola"]
+  },
+  {
+    "slug": "savona", "name": "Savona", "region": "Liguria",
+    "coords": { "lat": 44.3091, "lng": 8.4772 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Eleonora Servodio", "Emma Vitiello"]
+  },
+  {
+    "slug": "siena", "name": "Siena", "region": "Toscana",
+    "coords": { "lat": 43.3188, "lng": 11.3308 },
+    "status": "attiva", "website": null, "ticketUrl": null, "social": {},
+    "nextEdition": { "startDate": null, "endDate": null, "venue": null, "edition": null, "note": null },
+    "special": null,
+    "referentiStatic": ["Marco D'Angelo"]
+  }
+]

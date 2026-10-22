@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blu: #042359;
+  --color-blu-hover: #031e4c;
+  --color-blu-su-azzurro: #08336a;
+  --color-blu-2: #4f6489;
+  --color-blu-3: #5e7093;
+  --color-azzurro: #27a8e8;
+  --color-azzurro-hover: #2397d1;
+  --color-azzurro-forte: #1171a1;
+  --color-azzurro-forte-hover: #0e5e86;
+  --color-fuxia: #e1518d;
+  --color-fuxia-hover: #ca497f;
+  --color-fuxia-forte: #d1246c;
+  --color-fuxia-forte-hover: #b71f5f;
+  --color-fuxia-chiaro: #f07fab;
+  --color-fuxia-tenue: #fbeaf1;
+  --color-pagina: #ffffff;
+  --color-superficie: #fafafa;
+  --color-superficie-alt: #ebedf2;
+  --color-filo: #e6e9ee;
+  --color-filo-forte: #d3dae4;
+  --color-bianco: #fafafa;
+  --color-bianco-2: #a4afc2;
+  --color-bianco-3: #8b99b2;
+  --color-errore: #c42348;
+  --color-errore-chiaro: #ff7a8f;
+
+  --font-sans: var(--font-mona-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-stack-sans-notch), "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-pagina text-blu font-sans antialiased;
+  }
+  h1, h2, h3 {
+    @apply font-display text-balance;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-azzurro-forte);
+    outline-offset: 2px;
+  }
+  .bg-blu :focus-visible, .on-dark :focus-visible {
+    outline-color: var(--color-azzurro);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+}
+
+@utility container-sw {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+}
+@utility section {
+  @apply py-16 sm:py-24;
+}
+@utility eyebrow {
+  @apply text-sm font-semibold tracking-wider text-azzurro-forte uppercase;
+  .on-dark & {
+    @apply text-azzurro;
+  }
+}
+@utility h2 {
+  @apply mt-2 text-3xl font-bold sm:text-4xl;
+}
+@utility lead {
+  @apply mt-4 max-w-2xl text-lg text-blu-2;
+  .on-dark & {
+    @apply text-bianco-2;
+  }
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-60;
+}
+@utility btn-primary {
+  @apply btn bg-fuxia-forte text-white hover:bg-fuxia-forte-hover;
+}
+@utility btn-secondary {
+  @apply btn border-2 border-blu text-blu hover:bg-blu hover:text-white;
+  .on-dark & {
+    @apply border-white text-white hover:bg-white hover:text-blu;
+  }
+}
+@utility card {
+  @apply rounded-2xl border border-filo bg-pagina p-6;
+}
+@utility link {
+  @apply font-semibold text-azzurro-forte underline decoration-2 underline-offset-4 hover:text-azzurro-forte-hover;
+}
+@utility badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;
+}
+@utility field-label {
+  @apply mb-1 block text-sm font-semibold;
+}
+@utility field {
+  @apply w-full rounded-xl border border-filo-forte bg-pagina px-4 py-3 text-base text-blu placeholder:text-blu-3;
+  &[aria-invalid="true"] {
+    @apply border-errore;
+  }
+}
+@utility field-error {
+  @apply mt-1 text-sm font-medium text-errore;
+}

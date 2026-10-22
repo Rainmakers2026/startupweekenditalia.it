@@ -1,0 +1,5 @@
+[
+  { "name": "Lorem ipsum startup", "city": "padova", "year": null, "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "website": null, "placeholder": true },
+  { "name": "Lorem ipsum startup", "city": "rimini", "year": null, "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "website": null, "placeholder": true },
+  { "name": "Lorem ipsum startup", "city": "bari", "year": null, "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "website": null, "placeholder": true }
+]
